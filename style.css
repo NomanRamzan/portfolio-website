@@ -41,8 +41,7 @@ h1 {
   width: 327px;
   height: 124px;
   left: 24px;
-  top: 120px;
-  font-family: 'Crete Round' Arial, Helvetica, sans-serif;
+  top: 120px;  /* font-family: 'Crete Round' Arial, Helvetica, sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -76,8 +75,7 @@ p {
   width: 327px;
   height: 123px;
   left: 24px;
-  top: 295px;
-  font-family: "Poppins" Arial, Helvetica, sans-serif;
+  top: 295px;  /* font-family: "Poppins" Arial, Helvetica, sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
