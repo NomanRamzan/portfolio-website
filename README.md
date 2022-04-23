@@ -1,8 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Portfolio Website
 
-> Configuration of linter with html & css files
+> Build for this project
+
+- the toolbar (or header)
+- the headline section (right after the header)
 
 ## Built With
 
