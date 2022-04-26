@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 * {
@@ -40,6 +41,12 @@ main {
   width: 375px;
   height: 590px;
 }
+
+/* .section-header {
+  background: black;
+  width: 375px;
+  height: 2000px;
+} */
 
 h1 {
   color: #ff6b00;
@@ -102,9 +109,18 @@ h2 {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   margin-left: 24px;
   margin-top: 120px;
+}
+
+.border-line {
+  position: static;
+  width: 327px;
+  top: 107px;
+  border-top: 1px solid black;
+  color: black;
+  margin-left: 24px;
 }
 
 .container-work {
@@ -118,7 +134,7 @@ h2 {
   height: 237px;
   left: 24px;
   margin-left: 24px;
-  margin-top: 50px;
+  margin-top: 104px;
 }
 
 .heading-post {
@@ -159,28 +175,25 @@ h2 {
 
 div.item .langu {
   list-style: none;
-  background-color: #eaecfa;
+  background: white;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
   border: 1px solid #8993a4;
-  color: #ff6b00;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-div.item .langu:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  padding: auto;
+  box-sizing: border-box;
 }
 
 .see-project-button button {
   margin-top: 30px;
   margin-left: 25px;
-  margin-bottom: 50px;
   background: #ff6b00;
   padding: 12px;
-  color: #fff;
+  color: white;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -194,6 +207,240 @@ div.item .langu:hover {
   letter-spacing: 0.03em;
 }
 
-.see-project-button button:hover {
-  border: 3px solid rgb(80, 76, 76);
+.section-art-printing {
+  width: 375px;
+}
+
+.main-art-printing {
+  background-image: url("/images/art-2-placeholder.png");
+  background-repeat: no-repeat;
+  width: 327px;
+  height: 386px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.heading4 {
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 16px;
+  color: white;
+  padding-top: 84px;
+}
+
+.detail-2 {
+  width: 295px;
+  height: 87px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 101px;
+  margin-left: 16px;
+  color: white;
+}
+
+.container-lang2 {
+  display: flex;
+  margin-top: 20px;
+  color: white;
+  list-style: none;
+  margin-left: 16px;
+  justify-content: space-around;
+  margin-right: 75px;
+}
+
+.container-lang2 .item {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.art-button {
+  margin-top: 12px;
+  background: #ff6b00;
+  width: 327px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.art-button button {
+  padding: 12px;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.section-about {
+  margin-top: 100px;
+  width: 375px;
+  height: 1850px;
+  background-color: black;
+}
+
+.about {
+  margin-top: 120px;
+  margin-left: 24px;
+  color: #ff6b00;
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  padding-top: 120px;
+}
+
+.detail-3 {
+  color: white;
+  width: 327px;
+  height: 148px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 150px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.about-button {
+  margin-top: 12px;
+  background: #ff6b00;
+  width: 161px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.about-button button {
+  padding: 12px;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.image-about-design {
+  background-image: url("/images/about-Frame.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 246px;
+  margin-left: 215px;
+}
+
+.border-line-about {
+  margin-top: 22px;
+  position: static;
+  width: 327px;
+  top: 107px;
+  border-top: 1px solid white;
+  color: white;
+  margin-left: 24px;
+}
+
+.frame-language {
+  color: white;
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  margin-top: 136px;
+}
+
+.icon-language {
+  background-image: url("/images/language-rectangle.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  padding-right: 33px;
+}
+
+.container-frame {
+  text-align: center;
+  height: 24px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  margin-top: 25px;
+}
+
+.frame-framework {
+  color: white;
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.icon-framework {
+  background-image: url("/images/frame-square.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  padding-right: 33px;
+}
+
+.frame-skills {
+  color: white;
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 116px;
+  display: flex;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.icon-skills {
+  background-image: url("/images/skill-circle.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  padding-right: 33px;
 }
