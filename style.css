@@ -17,7 +17,7 @@ header {
 .navbar {
   background: #3c3a39;
   height: 92px;
-  width: 375px;/* height: 92px; */
+  width: 375px;
 }
 
 .navbar .item-name {
@@ -41,12 +41,6 @@ main {
   width: 375px;
   height: 590px;
 }
-
-/* .section-header {
-  background: black;
-  width: 375px;
-  height: 2000px;
-} */
 
 h1 {
   color: #ff6b00;
