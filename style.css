@@ -439,3 +439,15 @@ div.item .langu {
   padding-right: 33px;
 }
 
+.footer-bottom-end {
+  border-bottom: 7px solid black;
+  border-radius: 5px;
+  margin-top: 23px;
+  margin-bottom: 8px;
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  margin-left: 120px;
+}
+
+
