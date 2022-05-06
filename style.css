@@ -815,7 +815,7 @@ div.item .langu {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 3s  linear 2s;
+    transition: background-color 3s  linear 1s;
   }
 
   .footer-navigation:hover {
