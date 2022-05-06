@@ -16,6 +16,11 @@
 
 ### To get a local copy up and running follow these simple example steps.
 
+- steps to clone and run this project locally in your computer follow these commands
+
+- git clone URL
+- cd project_name
+
 ### Prerequisites
 
 - clone project from repo
@@ -39,3 +44,11 @@
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
