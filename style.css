@@ -89,7 +89,6 @@ h2 {
 
 .section-header .item {
   display: flex;
-  padding-top: 30px;
   margin: 15px;
 }
 
@@ -534,4 +533,295 @@ div.item .langu {
   width: 134px;
   height: 5px;
   margin-left: 120px;
+}
+
+/* Desktop Version Start */
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    background: #3c3a39;
+    width: 100%;
+    height: 92px;
+  }
+
+  .item-name {
+    margin-left: 70px;
+  }
+
+  .item-img {
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-between;
+  }
+
+  .three-line-icon {
+    display: none;
+  }
+
+  div .right-navigation {
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 22px;
+    justify-content: space-around;
+    padding-left: 100px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .right-item {
+    padding: 10px;
+    list-style: none;
+  }
+
+  main {
+    background: black;
+    width: 100%;
+    height: 590px;
+  }
+
+  .section-header .container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 450px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    position: absolute;
+    width: 566px;
+    height: 160px;
+    left: 143px;
+    top: 130px;
+    right: 731px;
+    bottom: 446px;
+  }
+
+  h2 {
+    position: absolute;
+    width: 566px;
+    height: 24px;
+    left: 143px;
+    top: 400px;
+    bottom: 398px;
+    right: 731px;
+  }
+
+  .detail-1 {
+    position: absolute;
+    width: 566px;
+    height: 123px;
+    left: 143px;
+    bottom: 251px;
+    top: 450px;
+    right: 731px;
+  }
+
+  header {
+    background-image: url("/images/header-design-pic.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 700px;
+    width: 100%;
+  }
+
+  /* First page done */
+
+  .heading-work {
+    width: 327px;
+    height: 83px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Crete Round', sans-serif;
+    margin-left: 143px;
+    margin-top: 120px;
+    margin-bottom: -53px;
+  }
+
+  .border-line {
+    position: static;
+    width: 700px;
+    border-top: 1px solid black;
+    color: black;
+    margin-left: 500px;
+    left: 339px;
+  }
+
+  .section-work {
+    background-color: white;
+    width: 100%;
+  }
+
+  .image-work img {
+    position: static;
+    width: 600px;
+    height: 448px;
+    left: 24px;
+    margin-left: 250px;
+    margin-top: 114px;
+  }
+
+  .heading-post {
+    position: absolute;
+    margin-left: 880px;
+    top: 920px;
+  }
+
+  .post-detail {
+    position: absolute;
+    margin-left: 439px;
+    margin-top: 13px;
+  }
+
+  div.item.langu {
+    position: absolute;
+    margin-top: 262px;
+    margin-left: 860px;
+  }
+
+  div.see-project-button {
+    position: absolute;
+    left: 858px;
+    top: 1229px;
+  }
+
+  .art-work-six-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    column-gap: 0;
+    row-gap: 0;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+
+    /* justify-items: stretch; */
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .section-art-printing {
+    padding: 60px;
+  }
+
+  section.section-about {
+    width: 100%;
+    margin-top: 0;
+    height: 1100px;
+  }
+
+  div.item.about {
+    margin-left: 142px;
+    margin-top: 10px;
+  }
+
+  div.item.detail-3 {
+    margin-left: 142px;
+    margin-top: 110px;
+    width: 566px;
+    height: 148px;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  div.item.about-button {
+    margin-left: 142px;
+    margin-top: -10px;
+  }
+
+  .image-about-design {
+    background-image: url(/images/about-design-full.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 352px;
+    margin-top: -285px;
+    position: absolute;
+    left: 46%;
+  }
+
+  .border-line-about {
+    margin-left: 142px;
+    width: 1156px;
+    margin-top: 150px;
+  }
+
+  .container-langu-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: -118px;
+  }
+
+  .items-langu-frame {
+    text-align: center;
+  }
+
+  .icon-language {
+    margin-left: -41px;
+  }
+
+  .icon-framework {
+    margin-left: -52px;
+  }
+
+  .icon-skills {
+    margin-left: -42px;
+  }
+
+  div.form-section {
+    width: 100%;
+    height: 810px;
+  }
+
+  .form-headline {
+    width: 320px;
+    height: 256px;
+    margin-left: 190px;
+    margin-top: 50px;
+    padding-top: 128px;
+    text-align: left;
+  }
+
+  .form-sementic {
+    position: relative;
+    top: -197px;
+    margin-left: 650px;
+  }
+
+  .user-name {
+    width: 700px;
+  }
+
+  .user-email {
+    width: 700px;
+  }
+
+  .msg-area {
+    width: 700px;
+  }
+
+  .form-button {
+    margin-left: 30px;
+  }
+
+  .footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-footer {
+    padding-left: 30px;
+  }
+
+  .footer-bottom-end {
+    display: none;
+  }
 }
