@@ -815,6 +815,11 @@ div.item .langu {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 3s  linear 2s;
+  }
+
+  .footer-navigation:hover {
+    background-color: #8993a4;
   }
 
   .item-footer {
