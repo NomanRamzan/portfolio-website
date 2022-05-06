@@ -558,31 +558,21 @@ div.item .langu {
     display: none;
   }
 
-  .navbar .page-portfolio {
-    background-image: url("./images/Portoflio.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 26px;
+  div .right-navigation {
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 22px;
+    justify-content: space-around;
+    padding-left: 100px;
+    font-size: large;
+    font-weight: bold;
   }
 
-  .navbar .page-about {
-    background-image: url("./images/About.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 26px;
-  }
-
-  .navbar .page-contact {
-    background-image: url("./images/Contact.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 26px;
+  .right-item {
+    padding: 10px;
+    list-style: none;
   }
 
   main {
@@ -668,34 +658,34 @@ div.item .langu {
 
   .image-work img {
     position: static;
-    width: 684px;
+    width: 600px;
     height: 448px;
     left: 24px;
-    margin-left: 143px;
+    margin-left: 250px;
     margin-top: 114px;
   }
 
   .heading-post {
     position: absolute;
-    margin-left: 850px;
+    margin-left: 880px;
     top: 920px;
   }
 
   .post-detail {
     position: absolute;
-    margin-left: 425px;
+    margin-left: 439px;
     margin-top: 13px;
   }
 
   div.item.langu {
     position: absolute;
     margin-top: 262px;
-    margin-left: 837px;
+    margin-left: 860px;
   }
 
   div.see-project-button {
     position: absolute;
-    left: 835px;
+    left: 858px;
     top: 1229px;
   }
 
@@ -787,6 +777,7 @@ div.item .langu {
 
   div.form-section {
     width: 100%;
+    height: 810px;
   }
 
   .form-headline {
@@ -795,6 +786,7 @@ div.item .langu {
     margin-left: 190px;
     margin-top: 50px;
     padding-top: 128px;
+    text-align: left;
   }
 
   .form-sementic {
