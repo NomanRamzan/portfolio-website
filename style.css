@@ -8,7 +8,7 @@
 }
 
 header {
-  background-image: url("/images/Group.png");
+  background-image: url("images/Group.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 626px;
@@ -205,7 +205,7 @@ div.item .langu {
 }
 
 .main-art-printing {
-  background-image: url("/images/art-2-placeholder.png");
+  background-image: url("images/art-2-placeholder.png");
   background-repeat: no-repeat;
   width: 327px;
   height: 386px;
@@ -340,7 +340,7 @@ div.item .langu {
 }
 
 .image-about-design {
-  background-image: url("/images/about-Frame.png");
+  background-image: url("images/about-Frame.png");
   background-repeat: no-repeat;
   width: 160px;
   height: 246px;
@@ -373,7 +373,7 @@ div.item .langu {
 }
 
 .icon-language {
-  background-image: url("/images/language-rectangle.png");
+  background-image: url("images/language-rectangle.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -408,7 +408,7 @@ div.item .langu {
 }
 
 .icon-framework {
-  background-image: url("/images/frame-square.png");
+  background-image: url("images/frame-square.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -431,7 +431,7 @@ div.item .langu {
 }
 
 .icon-skills {
-  background-image: url("/images/skill-circle.png");
+  background-image: url("images/skill-circle.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -621,7 +621,7 @@ div.item .langu {
   }
 
   header {
-    background-image: url("/images/header-design-pic.png");
+    background-image: url("images/header-design-pic.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     height: 700px;
@@ -736,7 +736,7 @@ div.item .langu {
   }
 
   .image-about-design {
-    background-image: url(/images/about-design-full.png);
+    background-image: url(images/about-design-full.png);
     background-repeat: no-repeat;
     width: 600px;
     height: 352px;
