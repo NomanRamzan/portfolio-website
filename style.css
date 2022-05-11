@@ -18,6 +18,7 @@ header {
   background: #3c3a39;
   height: 92px;
   width: 375px;
+  overflow: hidden;
 }
 
 .navbar .item-name {
@@ -129,7 +130,7 @@ h2 {
 .image-work img {
   width: 327px;
   height: 237px;
-  left: 24px;
+  /* left: 24px; */
   margin-left: 24px;
   margin-top: 104px;
 }
@@ -205,7 +206,7 @@ div.item .langu {
 }
 
 .section-art-printing {
-  width: 375px;
+  /* width: 375px; */
 }
 
 .main-art-printing {
@@ -668,51 +669,41 @@ div.item .langu {
   }
 
   .image-work img {
-    position: static;
-    width: 600px;
+    position: relative;
+    width: 50%;
     height: 448px;
-    left: 24px;
-    margin-left: 250px;
+    margin-left: 136px;
     margin-top: 114px;
   }
 
   .heading-post {
-    position: absolute;
-    margin-left: 880px;
-    top: 920px;
+    position: relative;
+    margin-left: 910px;
+    top: -479px;
   }
 
   .post-detail {
-    position: absolute;
-    margin-left: 439px;
-    margin-top: 13px;
+    position: relative;
+    margin-left: 458px;
+    margin-top: -226px;
   }
 
   div.item.langu {
-    position: absolute;
-    margin-top: 262px;
-    margin-left: 860px;
+    position: relative;
+    margin-top: -211px;
+    left: 890px;
+    width: 30%;
   }
 
   div.see-project-button {
-    position: absolute;
-    left: 858px;
-    top: 1229px;
+    position: relative;
+    left: 890px;
   }
 
   .art-work-six-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0;
-    column-gap: 0;
-    row-gap: 0;
     background-color: white;
-    margin-left: 0;
-    margin-right: 0;
-
-    /* justify-items: stretch; */
-    padding-left: 60px;
-    padding-right: 60px;
   }
 
   .section-art-printing {
@@ -749,11 +740,11 @@ div.item .langu {
   .image-about-design {
     background-image: url(images/about-design-full.png);
     background-repeat: no-repeat;
-    width: 600px;
+    width: 60%;
     height: 352px;
     margin-top: -285px;
-    position: absolute;
-    left: 46%;
+    position: relative;
+    left: 48%;
   }
 
   .border-line-about {
@@ -807,15 +798,15 @@ div.item .langu {
   }
 
   .user-name {
-    width: 700px;
+    width: 70%;
   }
 
   .user-email {
-    width: 700px;
+    width: 70%;
   }
 
   .msg-area {
-    width: 700px;
+    width: 70%;
   }
 
   .form-button {
