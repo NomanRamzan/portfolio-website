@@ -551,6 +551,10 @@ div.item .langu {
     height: 92px;
   }
 
+  section {
+    overflow: hidden;
+  }
+
   .item-name {
     margin-left: 70px;
   }
